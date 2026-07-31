@@ -92,6 +92,8 @@ Gradio Deployment
 
 The dataset contains information for **800 football players**.
 
+[**Football_injury data**](https://github.com/Ahmedsherif1306/football-injuryAnalysis-prediction/blob/main/Data/Raw_Data.csv)
+
 ## Features
 
 - Age
@@ -123,6 +125,8 @@ The dataset contains information for **800 football players**.
 ---
 
 # Data Cleaning
+
+[**Cleaned data**](https://github.com/Ahmedsherif1306/football-injuryAnalysis-prediction/blob/main/Data/Cleaned_data.csv)
 
 The following preprocessing steps were performed:
 
@@ -195,6 +199,8 @@ The interactive dashboard provides insights into:
 
 # Machine Learning
 
+[**Predict_Injury Notebook**](https://github.com/Ahmedsherif1306/football-injuryAnalysis-prediction/blob/main/Notebook/Predict_injury.ipynb)
+
 ## Algorithm
 
 - K-Nearest Neighbors (KNN)
@@ -219,11 +225,11 @@ Evaluation metrics used:
 - Confusion Matrix
 - Classification Report
 
-> Add your evaluation screenshots here.
-
 ---
 
 # Deployment
+
+[**Deployment Notebook**](https://github.com/Ahmedsherif1306/football-injuryAnalysis-prediction/blob/main/Deployment/app.ipynb)
 
 The trained K-Nearest Neighbors (KNN) model was deployed using **Gradio**, allowing users to interact with the model through a simple web interface.
 
