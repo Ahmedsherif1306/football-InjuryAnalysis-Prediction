@@ -4,7 +4,31 @@ An end-to-end Data Analytics and Machine Learning project that analyzes football
 
 ---
 
-## 📌 Project Overview
+# 📑 Table of Contents
+
+- [🎯 Project Mission](#-project-mission)
+- [📌 About the Project](#-about-the-project)
+- [🎯 Objectives](#-objectives)
+- [📊 Dataset](#-dataset)
+- [🧹 Data Cleaning](#-data-cleaning)
+- [📈 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
+- [📊 Power BI Dashboard](#-power-bi-dashboard)
+- [🤖 Machine Learning](#-machine-learning)
+- [📊 Model Performance](#-model-performance)
+- [🌐 Deployment](#-deployment)
+- [🛠️ Technologies Used](#️-technologies-used)
+
+  
+# 🎯 Project Mission
+
+Football injuries can negatively affect both player performance and team success. Identifying players who are at higher risk of injury helps coaches, medical staff, and performance analysts make informed decisions regarding training load, recovery, and injury prevention.
+
+The mission of this project is to combine data analytics and machine learning to identify the key factors associated with football injuries, visualize injury patterns through an interactive dashboard, and build a predictive model that estimates injury risk for the next season.
+
+This project demonstrates a complete end-to-end analytics workflow, from raw data preprocessing to dashboard development, machine learning, and deployment.
+
+
+# 📌 About the Project
 
 Football injuries can significantly impact team performance and player careers. This project analyzes the factors associated with football injuries and builds a predictive machine learning model to estimate injury risk for the following season.
 
@@ -73,7 +97,7 @@ The following preprocessing steps were performed:
 
 ---
 
-# 📈 Exploratory Data Analysis
+# 📈 Exploratory Data Analysis (EDA
 
 EDA was performed to understand player characteristics and identify factors associated with injury risk.
 
