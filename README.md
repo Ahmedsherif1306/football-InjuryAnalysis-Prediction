@@ -1,25 +1,27 @@
-# ⚽ Football Injury Analytics & Prediction
+# Football Injury Analytics & Prediction
 
 An end-to-end Data Analytics and Machine Learning project that analyzes football player injury risk and predicts whether a player is likely to suffer an injury in the next season.
 
 ---
 
-# 📑 Table of Contents
+# Table of Contents
 
-- [🎯 Project Mission](#-project-mission)
-- [📌 About the Project](#-about-the-project)
-- [🎯 Objectives](#-objectives)
-- [📊 Dataset](#-dataset)
-- [🧹 Data Cleaning](#-data-cleaning)
-- [📈 Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
-- [📊 Power BI Dashboard](#-power-bi-dashboard)
-- [🤖 Machine Learning](#-machine-learning)
-- [📊 Model Performance](#-model-performance)
-- [🌐 Deployment](#-deployment)
-- [🛠️ Technologies Used](#️-technologies-used)
+- [Project Mission](#project-mission)
+- [About the Project](#about-the-project)
+- [Objectives](#objectives)
+- [Project Workflow](#project-workflow)
+- [Dataset](#dataset)
+- [Data Cleaning](#data-cleaning)
+- [Feature Engineering](#feature-engineering)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Power BI Dashboard](#power-bi-dashboard)
+- [Machine Learning](#machine-learning)
+- [Model Performance](#model-performance)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+---
 
-  
-# 🎯 Project Mission
+# Project Mission
 
 Football injuries can negatively affect both player performance and team success. Identifying players who are at higher risk of injury helps coaches, medical staff, and performance analysts make informed decisions regarding training load, recovery, and injury prevention.
 
@@ -27,16 +29,27 @@ The mission of this project is to combine data analytics and machine learning to
 
 This project demonstrates a complete end-to-end analytics workflow, from raw data preprocessing to dashboard development, machine learning, and deployment.
 
+---
 
-# 📌 About the Project
+# About the Project
 
-Football injuries can significantly impact team performance and player careers. This project analyzes the factors associated with football injuries and builds a predictive machine learning model to estimate injury risk for the following season.
+This project is an end-to-end Football Injury Analytics solution that combines data analysis, visualization, and machine learning.
 
-The project covers the complete data analytics workflow, including data cleaning, exploratory data analysis (EDA), dashboard development, machine learning, and deployment.
+The project includes:
+
+- Data Cleaning
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Interactive Power BI Dashboard
+- K-Nearest Neighbors (KNN) Classification
+- Model Evaluation
+- Gradio Deployment
+
+The objective is not only to predict injuries but also to understand the factors that contribute to injury risk through data-driven analysis.
 
 ---
 
-## 🎯 Objectives
+# Objectives
 
 - Analyze the main factors affecting football injuries.
 - Discover relationships between player fitness and injury risk.
@@ -46,11 +59,40 @@ The project covers the complete data analytics workflow, including data cleaning
 
 ---
 
-## 📊 Dataset
+# Project Workflow
+
+```text
+Raw Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Feature Engineering
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Power BI Dashboard
+      │
+      ▼
+Machine Learning (KNN)
+      │
+      ▼
+Model Evaluation
+      │
+      ▼
+Gradio Deployment
+```
+
+---
+
+# Dataset
 
 The dataset contains information for **800 football players**.
 
-### Features
+## Features
 
 - Age
 - Height
@@ -71,35 +113,50 @@ The dataset contains information for **800 football players**.
 - Nutrition Quality
 - Warm-up Routine Adherence
 
-### Target
+## Target
 
-- **Injury Next Season**
-    - 0 → No Injury
-    - 1 → Injury
+**Injury Next Season**
+
+- 0 → No Injury
+- 1 → Injury
 
 ---
 
-# 🧹 Data Cleaning
+# Data Cleaning
 
 The following preprocessing steps were performed:
 
-- ✔ No Missing Values
-- ✔ No Duplicate Records
-- ✔ Verified BMI calculation
-- ✔ Converted Position into categorical values
-- ✔ Created new categorical features:
+- No missing values.
+- No duplicate records.
+- Verified BMI calculation.
+- Converted **Position** into categorical values.
+- Created new categorical features:
   - Training Level
   - Sleep Category
   - Nutrition Category
   - Match Load
   - Injury History
-- ✔ Outliers were retained because they represent realistic player performance rather than data entry errors.
+- Outliers were retained because they represent realistic player performance rather than data entry errors.
 
 ---
 
-# 📈 Exploratory Data Analysis (EDA
+# Feature Engineering
 
-EDA was performed to understand player characteristics and identify factors associated with injury risk.
+Several new features were created to improve analysis and dashboard visualization:
+
+- Training Level
+- Sleep Category
+- Nutrition Category
+- Match Load
+- Injury History
+
+These engineered features simplify interpretation and make trends easier to visualize.
+
+---
+
+# Exploratory Data Analysis (EDA)
+
+The exploratory analysis focused on understanding injury patterns and identifying the factors associated with injury risk.
 
 The analysis included:
 
@@ -114,7 +171,7 @@ The analysis included:
 
 ---
 
-# 📊 Power BI Dashboard
+# Power BI Dashboard
 
 The interactive dashboard provides insights into:
 
@@ -136,13 +193,13 @@ The interactive dashboard provides insights into:
 
 ---
 
-# 🤖 Machine Learning
+# Machine Learning
 
-### Algorithm
+## Algorithm
 
 - K-Nearest Neighbors (KNN)
 
-### Workflow
+## Workflow
 
 - Label Encoding
 - Feature Selection
@@ -154,9 +211,9 @@ The interactive dashboard provides insights into:
 
 ---
 
-# 📊 Model Performance
+# Model Performance
 
-Evaluation Metrics:
+Evaluation metrics used:
 
 - Accuracy
 - Confusion Matrix
@@ -166,26 +223,27 @@ Evaluation Metrics:
 
 ---
 
-# 🌐 Deployment
+# Deployment
 
 The trained K-Nearest Neighbors (KNN) model was deployed using **Gradio**, allowing users to interact with the model through a simple web interface.
 
-### 🔗 Live Demo
+## Live Demo
 
-👉 **Try the application here:**  
-[https://your-gradio-link.gradio.live](https://66343f5f9cdb502fc1.gradio.live)
+**Try the application here:**
 
-### Features
+https://66343f5f9cdb502fc1.gradio.live
+
+## Application Features
 
 - Select the player's position.
 - Enter the player's fitness and performance metrics.
 - Predict whether the player is likely to suffer an injury in the next season.
 
-> **Note:** The prediction is intended for educational purposes and is based on the provided dataset.
+**Note:** The prediction is intended for educational purposes and is based on the provided dataset.
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 - Python
 - Pandas
@@ -199,4 +257,4 @@ The trained K-Nearest Neighbors (KNN) model was deployed using **Gradio**, allow
 
 ---
 
-## ⭐ If you found this project useful, don't forget to give it a Star.
+If you found this project useful, consider giving it a ⭐ on GitHub.
