@@ -235,11 +235,9 @@ Based on the dashboard findings:
 - Prioritize medical monitoring for players with a history of frequent injuries.
 - Develop individualized rehabilitation and injury-prevention programs for high-risk players.
 - Improve nutrition plans to encourage players to reach higher nutrition quality levels.
-- Continuously monitor players in the Moderate Training Level group to ensure training load is appropriate.
 - Combine physical performance assessments with injury history when evaluating player readiness.
 - Use the injury prediction model as an early warning system to support coaching and medical staff in reducing injury risk.
 - Monitor players experiencing **high stress levels**, since the dashboard indicates that increased stress is associated with a greater likelihood of injury. Mental recovery sessions and workload management should be incorporated into training plans.
-
 - Encourage players to maintain **healthy sleep habits**, as poor sleep quality is linked to higher injury risk and reduced physical readiness. Coaches should promote consistent sleep schedules and adequate recovery time.
 
 ---
