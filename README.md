@@ -177,7 +177,10 @@ The analysis included:
 
 # Power BI Dashboard
 
+> **[Access the Live Power BI Dashboards Here](https://app.powerbi.com/view?r=eyJrIjoiNzQ3NDM1Y2EtYjBmMi00NTQ1LWFjY2ItYzk2ZjEwOGZhMWYzIiwidCI6ImIzMDExMzJiLWMwNjYtNDk4MC1iMjU3LTdmZmRiOTdkNmY0NCJ9)**
+> 
 The interactive dashboard provides insights into:
+
 
 - Injury Rate
 - Injury by Position
