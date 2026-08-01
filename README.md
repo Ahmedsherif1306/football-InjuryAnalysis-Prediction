@@ -284,7 +284,7 @@ The trained K-Nearest Neighbors (KNN) model was deployed using **Gradio**, allow
 
 **Try the application here:**
 
-https://66343f5f9cdb502fc1.gradio.live
+[https://66343f5f9cdb502fc1.gradio.live](https://522fa304ac6e98ecd1.gradio.live)
 
 ## Application Features
 
