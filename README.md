@@ -177,26 +177,69 @@ The analysis included:
 
 # Power BI Dashboard
 
+The project includes an interactive Power BI dashboard divided into four analytical pages, each focusing on a different aspect of football player performance and injury risk.
+
 > **[Access the Live Power BI Dashboards Here](https://app.powerbi.com/view?r=eyJrIjoiNzQ3NDM1Y2EtYjBmMi00NTQ1LWFjY2ItYzk2ZjEwOGZhMWYzIiwidCI6ImIzMDExMzJiLWMwNjYtNDk4MC1iMjU3LTdmZmRiOTdkNmY0NCJ9)**
 > 
-The interactive dashboard provides insights into:
+
+##  Overview Dashboard
+
+This page provides a high-level summary of the dataset, including player distribution, injury statistics, and key performance indicators.
 
 
-- Injury Rate
-- Injury by Position
-- Injury by Match Load
-- Injury by Training Level
-- Injury by Sleep Category
-- Injury by Nutrition
-- Injury by Previous Injury History
-- Correlation Analysis
-- Key Performance Indicators (KPIs)
 
-> Add your dashboard screenshot here.
+![OverView Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/OverView_Page.png)
 
-```text
-/dashboard/dashboard.png
-```
+---
+
+##  Performance Dashboard
+
+This page analyzes players' physical performance through agility, sprint speed, balance, knee strength, reaction time, and flexibility across different player groups.
+
+![Performance Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Performance_Page.png)
+
+---
+
+##  Training Dashboard
+
+This page focuses on training habits and lifestyle factors such as training level, sleep, nutrition, stress level, and warm-up adherence.
+
+![Training Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Training_page.png)
+
+---
+
+##  Injury Dashboard
+
+This page investigates injury patterns by analyzing previous injury history, player position, nutrition, training level, and predicted injury risk.
+
+![Injury Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Injury_page.png)
+---
+#  Key Insights
+
+Based on the dashboard analysis:
+
+- Players with **Frequent Previous Injuries** have the highest injury rate (**81%**), compared to **49%** for players with few injuries and **26%** for players with no previous injuries.
+- Injury cases are distributed across all playing positions with only small differences, indicating that **position alone is not a strong predictor** of injury risk.
+- Players with a **Moderate Training Level** represent the largest share of predicted injury cases, making this group the primary target for monitoring.
+- The **Poor** nutrition category contains the highest number of predicted injury cases, while players with **Excellent** nutrition account for the fewest cases.
+- Most players fall into the **Few Injuries** category, but those in the **Frequent Injuries** category exhibit a substantially higher injury rate.
+- Physical performance metrics (agility, knee strength, balance, sprint speed, and reaction time) show measurable variation across training, nutrition, and recovery categories, highlighting their importance in evaluating player readiness.
+
+---
+
+#  Recommendations
+
+Based on the dashboard findings:
+
+- Prioritize medical monitoring for players with a history of frequent injuries.
+- Develop individualized rehabilitation and injury-prevention programs for high-risk players.
+- Improve nutrition plans to encourage players to reach higher nutrition quality levels.
+- Continuously monitor players in the Moderate Training Level group to ensure training load is appropriate.
+- Combine physical performance assessments with injury history when evaluating player readiness.
+- Use the injury prediction model as an early warning system to support coaching and medical staff in reducing injury risk.
+- Monitor players experiencing **high stress levels**, since the dashboard indicates that increased stress is associated with a greater likelihood of injury. Mental recovery sessions and workload management should be incorporated into training plans.
+
+- Encourage players to maintain **healthy sleep habits**, as poor sleep quality is linked to higher injury risk and reduced physical readiness. Coaches should promote consistent sleep schedules and adequate recovery time.
 
 ---
 
@@ -267,3 +310,47 @@ https://66343f5f9cdb502fc1.gradio.live
 ---
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+## Team Members
+<table align="center">
+<tr>
+
+<td align="center" width="33%">
+
+<img src="https://github.com/Ahmedsherif1306.png" width="110"><br><br>
+
+<b>Ahmed Sherif</b><br>
+
+<i>Data Preprocessing & Machine Learning</i><br>
+
+<a href="https://github.com/Ahmedsherif1306">GitHub</a>
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="https://github.com/eslam-zayed-eg.png" width="110"><br><br>
+
+<b>Eslam Zayed</b><br>
+
+<i>Deployment</i><br>
+
+<a href="https://github.com/eslam-zayed-eg">GitHub</a>
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="https://github.com/ZeyadElshaboury.png" width="110"><br><br>
+
+<b>Zeyad Elshaboury</b><br>
+
+<i>Data Visualization</i><br>
+
+<a href="https://github.com/ZeyadElshaboury">GitHub</a>
+
+</td>
+
+</tr>
+</table>
