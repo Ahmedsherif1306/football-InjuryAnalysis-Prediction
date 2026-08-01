@@ -19,6 +19,7 @@ An end-to-end Data Analytics and Machine Learning project that analyzes football
 - [Model Performance](#model-performance)
 - [Deployment](#deployment)
 - [Technologies Used](#technologies-used)
+- [Team Members](#team-members)
 ---
 
 # Project Mission
