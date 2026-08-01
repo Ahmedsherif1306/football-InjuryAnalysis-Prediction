@@ -180,7 +180,7 @@ The analysis included:
 
 The project includes an interactive Power BI dashboard divided into four analytical pages, each focusing on a different aspect of football player performance and injury risk.
 
-> **[Access the Live Power BI Dashboards Here](https://app.powerbi.com/view?r=eyJrIjoiNmRkOTRjNzUtNjgyMy00MzJkLTkwMTQtYTkzNzhmODNlNDdjIiwidCI6ImIzMDExMzJiLWMwNjYtNDk4MC1iMjU3LTdmZmRiOTdkNmY0NCJ9)**
+> **[Access the Live Power BI Dashboards Here](https://app.powerbi.com/view?r=eyJrIjoiZjVhYTBmY2UtZWYwZS00ZWE5LTgyYWYtMWIyMTY3NjFhN2IzIiwidCI6ImIzMDExMzJiLWMwNjYtNDk4MC1iMjU3LTdmZmRiOTdkNmY0NCJ9)**
 > 
 
 ##  Overview Dashboard
@@ -278,11 +278,6 @@ Evaluation metrics used:
 
 The trained K-Nearest Neighbors (KNN) model was deployed using **Gradio**, allowing users to interact with the model through a simple web interface.
 
-## Live Demo
-
-**Try the application here:**
-
-[https://66343f5f9cdb502fc1.gradio.live](https://522fa304ac6e98ecd1.gradio.live)
 
 ## Application Features
 
