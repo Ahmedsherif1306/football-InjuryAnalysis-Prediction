@@ -205,7 +205,7 @@ This page analyzes players' physical performance through agility, sprint speed, 
 
 This page focuses on training habits and lifestyle factors such as training level, sleep, nutrition, stress level, and warm-up adherence.
 
-![Training Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Training_page.png)
+![Training Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Training_Page.png)
 
 ---
 
