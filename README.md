@@ -213,7 +213,7 @@ This page focuses on training habits and lifestyle factors such as training leve
 
 This page investigates injury patterns by analyzing previous injury history, player position, nutrition, training level, and predicted injury risk.
 
-![Injury Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Injury_page.png)
+![Injury Dashboard](https://raw.githubusercontent.com/Ahmedsherif1306/football-injuryAnalysis-prediction/refs/heads/main/Dashboard/Injury_Page.png)
 ---
 #  Key Insights
 
